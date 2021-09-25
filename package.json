@@ -1,47 +1,17 @@
 {
-  "name": "portfolio-sina-gatsby",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "sina96.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/sina96/sina96.github.io.git",
+  "author": "sina96 <s.bastani96@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "gatsby": "^3.10.2",
-    "gatsby-plugin-gatsby-cloud": "^2.10.0",
-    "gatsby-plugin-image": "^1.10.1",
-    "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-offline": "^4.10.0",
-    "gatsby-plugin-react-helmet": "^4.10.0",
-    "gatsby-plugin-sharp": "^3.10.2",
-    "gatsby-source-filesystem": "^3.10.0",
-    "gatsby-transformer-sharp": "^3.10.0",
-    "gh-pages": "^3.2.3",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "@wkocjan/gatsby-theme-intro": "^2.0.1",
+    "gatsby": "^3.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "devDependencies": {
-    "prettier": "2.3.2"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public -b main"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sina96/sina96.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
